@@ -1,0 +1,43 @@
+body{
+    margin:0;
+    padding:0px;
+    box-sizing:border-box;
+    text-align: center;
+    background-color: darkgrey;
+ }
+
+@media print { 
+body {
+   margin:0;
+    padding:10px;
+    box-sizing:border-box;
+ }
+}
+
+#cv{
+     margin:auto;
+     width:100%;
+     height:100%;
+    display:flex; 
+}
+
+#left{
+    width:50%;
+    background:rgb(106, 180, 219);
+    padding:5px;
+border-right:4px solid  rgb(13, 19, 15);
+    
+}
+
+h3{
+    text-align:center;    
+    margin:5px;
+}
+
+img{
+    height:150px;
+    width:150px;
+    border:2px solid black;
+    display:block ;
+    margin:auto;
+}
